@@ -46,7 +46,7 @@ While looking through the CSV, I noticed some unneeded information (in my opinio
 ```bash
 db.listings.find().limit(2)
 ```
-Using find and limit here. I'm not sure if this was supposed to happen, but the results were formatted well already, so they seem to be formatted the same as they would using pretty() function... To my knowledge, this should have resulted in a large, dense chunk of text rather than with line breaks. I'm not sure if this has to do with using the MongoSH shell within MongoDB compass?
+Using find and limit here. I'm not sure if this was supposed to happen, but the results were formatted well already, so they seem to be formatted the same as they would using pretty() function... To my knowledge, this should have resulted in a large, dense chunk of text rather than with line breaks. But this was the way it was ouput within the MongoSH shell.
 
 Results:
 
